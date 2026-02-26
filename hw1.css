@@ -1,0 +1,99 @@
+/*
+    Name: Gary Vo
+    Date created: 02/24/26
+    Date Modified: 02/24/26
+    Purpose: Homework 1 css
+*/
+
+header {
+    width: 100%;
+    background-color: rgb(103, 121, 107);
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 155, 129);
+    margin: 0;
+    min-height: 100vh; /*making sure the page is height of the viewport*/
+}
+
+form {
+    flex-grow: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+main {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    flex-grow: 1;
+}
+
+.image {
+    text-align: left;
+}
+
+.td1 {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+th {
+    text-align: center;
+    font-family: "optima", sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(103, 121, 107);
+    height: 3.0rem;
+}
+
+#footer {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+label {
+    text-align: right;
+    font-family: "optima", sans-serif;
+    font-weight: normal;   
+}
+
+input {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+textarea {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+}
+
+#today {
+    text-align: left;
+    font-family: "optima", sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+p {
+    text-align: center;
+    font-family: "optima", sans-serif;
+    font-weight: normal; 
+}
